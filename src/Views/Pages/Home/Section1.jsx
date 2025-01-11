@@ -33,7 +33,7 @@ const Section1 = () => {
                         <div className="row">
                             <figcaption class="blockquote-footer d-flex text-white align-items-center">
                                 <h1 title="Source Title" className='inline-block ms-3'>
-                                    <em>Let's Get In <span style={{ color: "#94E214" }}>Touch...</span></em>
+                                    <em style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214" }}>Let's Get In <span style={{ color: "#94E214", borderBottom: "2px solid white" }}>Touch...</span></em>
                                 </h1>
                             </figcaption>
                             <div   >
