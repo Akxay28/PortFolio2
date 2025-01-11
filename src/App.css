@@ -1,0 +1,151 @@
+ #app {
+     height: 25vh;
+     font-weight: 500;
+     font-family: monospace;
+     text-align: left;
+     color: #94E214;
+     /* color: #33f933; */
+     font-size: 60px;
+     text-shadow: 1px 1px 9px rgb(51, 249, 51);
+ }
+
+ .roundedImg {
+     width: 400px;
+     height: 400px;
+     overflow: hidden;
+     background-image: url('../public/secondimg.JPG');
+     background-color: rgba(0, 0, 0, 0.308) !important;
+     background-blend-mode: multiply !important;
+     background-size: cover !important;
+     background-position: center !important;
+     background-blend-mode: hue;
+     transition: all 0.5s;
+     position: relative;
+     filter: saturate(0);
+     /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+     border-radius: 63% 37% 63% 37% / 16% 16% 84% 84%;
+     box-shadow: rgba(122, 250, 105, 0.1) 0px 8px 24px, rgba(149, 255, 145, 0.1) 0px 16px 56px, rgba(142, 255, 142, 0.1) 0px 24px 80px;
+
+     img {
+         display: none;
+     }
+
+     &:hover {
+         filter: saturate(1);
+     }
+ }
+
+
+
+
+ /* .roundedImg::before {
+     content: '';
+     
+     width: 0%;
+     height: 0%;
+     opacity: 0;
+     transform: scale(1);
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     background-color: rgba(0, 0, 0, 0.308);
+     background-blend-mode: multiply;
+     background-image: url('../public/akimg.JPG') !important;
+     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+     overflow: hidden;
+     background-size: cover;
+     background-position: center;
+     background-blend-mode: hue;
+     transition: all 0.5s ease-in-out;
+ }
+
+ .roundedImg:hover::before {
+     height: 100%;
+     width: 100%;
+     top: 0%;
+     left: 0%;
+     opacity: 1;
+     transform: translate(0%, 0%);
+     transform: scale(1.2);
+ } */
+
+ .similarFont {
+     font-size: 30px;
+     transition: all 0.5s;
+     border-radius: 30%;
+     padding: 10px;
+     box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+     margin: 10px;
+     cursor: pointer;
+
+     &:hover {
+         transform: scale(1.2);
+     }
+ }
+
+ .fa-instagram {
+     background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .fa-linkedin {
+     background: linear-gradient(45deg, #0077B5, #0077B5, #0077B5, #0077B5, #0077B5, #0077B5);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .fa-github {
+     background: linear-gradient(45deg, #333333, #333333, #333333, #333333, #333333, #333333);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+
+
+ .fa-whatsapp {
+     background: linear-gradient(45deg, #25D366, #25D366, #25D366, #25D366, #25D366, #25D366);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+
+ /* Section two */
+ .myServices {
+     font-family: 'Courier New';
+     color: #94E214;
+     border-radius: 30px;
+     /* color: #33f933; */
+     background: linear-gradient(45deg, #333333, #333333, #333333, #333333, #333333, #333333);
+
+
+     p {
+         background: linear-gradient(45deg, #b6b6b6, #cfcfcf, #94E214, #c5c4c4, #e2e1e1, #f3e8e8);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         font-family: "Open Sans", serif;
+         font-weight: 500;
+     }
+ }
+
+ .vr {
+     width: 2px !important;
+     height: 6vh !important;
+ }
+
+
+ @media (max-width: 576px) {
+     #app {
+         height: 25vh !important;
+         font-size: 30px !important;
+     }
+
+     .roundedImg {
+         width: 200px;
+         height: 200px;
+     }
+
+     .similarFont {
+         font-size: 17px !important;
+     }
+ }
