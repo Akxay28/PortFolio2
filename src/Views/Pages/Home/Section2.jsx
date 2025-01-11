@@ -26,6 +26,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div class="vr  d-grid mx-auto  text-light"></div>
+                <i class="text-center fa-regular fa-circle d-grid  mx-auto" style={{ color: "#94E214" }} ></i>
                 <div className="row   ">
                     <div className="col-lg-4"></div>
                     <div className="col-lg-8 border rounded py-5 d-flex align-items-center justify-content-center">
@@ -39,6 +40,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div class="vr  d-grid mx-auto  text-light"></div>
+                <i class="text-center  fa-regular fa-circle d-grid  mx-auto" style={{ color: "#94E214" }}></i>
 
 
                 <div className="row  ">
@@ -53,6 +55,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div class="vr  d-grid mx-auto  text-light"></div>
+                <i class="text-center    fa-regular fa-circle d-grid  mx-auto" style={{ color: "#94E214" }}></i>
 
                 <div className="row   ">
                     <div className="col-lg-4"></div>
