@@ -10,8 +10,8 @@ const Header = () => {
 
     return (
         <>
-            <nav class="navbar navbar-expand-lg  navbar-transparent mb-5  ">
-                <div class="container  pt-0 pt-lg-3 ">
+            <nav class="navbar navbar-expand-lg  navbar-transparent mb-5   ">
+                <div class="container  pt-0 pt-lg-3  py-5   ">
                     <a class="navbar-brand  " href="#">
 
                     </a>
@@ -20,17 +20,17 @@ const Header = () => {
                     </div>
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
-                            <li class="nav-item border-bottom border-dark ms-0 ms-lg-5 me-0 me-lg-5">
-                                <a class="nav-link text-light text-uppercase fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5" aria-current="page" href="#">Main Page</a>
+                            <li class="nav-item   ms-0 ms-lg-5 me-0 me-lg-5">
+                                <a class="nav-link text-light text-uppercase border-bottom fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5" aria-current="page" href="#">Main Page</a>
                             </li>
-                            <li class="nav-item border-bottom border-dark ms-0 ms-lg-5 me-0 me-lg-5">
-                                <a class="nav-link text-light text-uppercase fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5" aria-current="page" href="#">PortFolio</a>
+                            <li class="nav-item    ms-0 ms-lg-5 me-0 me-lg-5">
+                                <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5" aria-current="page" href="#">PortFolio</a>
                             </li>
                             <li class="nav-item ms-0 ms-lg-5 me-0 me-lg-5 border-bottom border-dark">
-                                <a class="nav-link text-light text-uppercase fs-bolder fs-6 ms-0 ms-lg-5 me-0 me-lg-5  " aria-current="page" href="#">Contacts</a>
+                                <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6 ms-0 ms-lg-5 me-0 me-lg-5  " aria-current="page" href="#">Contacts</a>
                             </li>
-                            <li class="nav-item  ms-0 ms-lg-5 me-0 me-lg-5 border-bottom border-dark">
-                                <a class="nav-link text-light text-uppercase fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5   " aria-current="page" href="#" >
+                            <li class="nav-item  ms-0 ms-lg-5 me-0 me-lg-5 ">
+                                <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5   " aria-current="page" href="#" >
                                     About Me
                                 </a>
                             </li>

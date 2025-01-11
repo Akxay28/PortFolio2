@@ -36,7 +36,7 @@ const Section1 = () => {
                                     <em style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214" }}>Let's Get In <span style={{ color: "#94E214", borderBottom: "2px solid white" }}>Touch...</span></em>
                                 </h1>
                             </figcaption>
-                            <div   >
+                            <div id='footerBlockQuote'>
                                 <h4 style={{ fontFamily: "Playwrite AU SA, serif" }} className="text-white lh-base">I'm a Full Stack Developer with a passion for developing and designing beautiful and functional websites. I'm always looking for new opportunities to learn and grow.</h4>
 
                             </div>

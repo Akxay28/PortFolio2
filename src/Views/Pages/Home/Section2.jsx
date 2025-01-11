@@ -9,7 +9,9 @@ const Section2 = () => {
                     <div className='myServices'>
                         <p className="display-5  py-3 border-bottom  text-center text-light">MY SERVICES</p>
                     </div>
-                    <p className="text-light fs-4 mt-5" >
+                    <p className="text-light fs-4 mt-5"
+                        style={{ fontFamily: "Playwrite AU SA, serif" }}
+                    >
                         As a full-stack developer, I specialize in building scalable and responsive web applications. Whether you need a dynamic front-end interface or a robust back-end API, I offer comprehensive solutions tailored to your needs. My skill set includes:
                     </p>
                 </div>
@@ -18,8 +20,8 @@ const Section2 = () => {
                         <div className="container ">
                             <i class="fa-solid fa-palette fs-2 text-primary"></i>
                             <span className="fs-3 text-light ms-3 border-bottom"><span style={{ color: "#94E214" }}>Frontend Development</span></span>
-                            <ul className="text-light ms-5 fs-5  mt-3" >
-                                <li>Creating responsive, user-friendly interfaces with <span style={{ color: "#94E214" }}>HTML5</span>, <span style={{ color: "#94E214" }}>CSS3</span>,<span style={{ color: "#94E214" }}> JavaScript</span> , and frameworks like <span style={{ color: "#94E214" }}> React JS</span> , <span style={{ color: "#94E214" }}>Redux</span>,  <span style={{ color: "#94E214" }}>TanStack Query</span> for front-end development and building interactive and dynamic user experiences using React.
+                            <ul className="text-light ms-5 fs-5  mt-3"  >
+                                <li >Creating responsive, user-friendly interfaces with <span style={{ color: "#94E214" }}>HTML5</span>, <span style={{ color: "#94E214" }}>CSS3</span>,<span style={{ color: "#94E214" }}> JavaScript</span> , and frameworks like <span style={{ color: "#94E214" }}> React JS</span> , <span style={{ color: "#94E214" }}>Redux</span>,  <span style={{ color: "#94E214" }}>TanStack Query</span> for front-end development and building interactive and dynamic user experiences using React.
                                 </li>
                             </ul>
                         </div>
