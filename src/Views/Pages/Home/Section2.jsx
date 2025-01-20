@@ -5,9 +5,12 @@ const Section2 = () => {
         <>
             <div className="container mt-0 mt-lg-5">
                 <div className="row py-5">
-                    <div className='myServices'>
-                        <p className="display-5  py-3 border-bottom  text-center text-light">MY SERVICES</p>
+                    <div className=''>
+                        <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 mb-0 mb-lg-5'>MY SERVICES</h2>
                     </div>
+                    {/* <div className='myServices'>
+                        <p className="display-5  py-3 border-bottom  text-center text-light">MY SERVICES</p>
+                    </div> */}
                     <p className="text-light fs-4 mt-5" style={{ fontFamily: "Playwrite AU SA, serif" }}>
                         As a full-stack developer, I specialize in building scalable and responsive web applications. Whether you need a dynamic front-end interface or a robust back-end API, I offer comprehensive solutions tailored to your needs. My skill set includes:
                     </p>
