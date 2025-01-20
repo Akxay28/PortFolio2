@@ -9,13 +9,13 @@ const Section1 = () => {
         });
 
         typewriter
-            .typeString("H E L L O :) ") // Type out the text
+            .typeString("H E L L O <br> :) ") // Type out the text
             .pauseFor(1000) // Pause after typing
             .deleteAll()    // Clear the text
             .typeString("WELCOME TO MY PORTFOLIO...") // Type out the text
             .pauseFor(1000)
             .deleteAll()
-            .typeString("MY NAME IS AKSHAY") // Type out the text
+            .typeString("MY NAME IS AKSHAY PAUL") // Type out the text
             .pauseFor(1000)
             .deleteAll()
             .typeString("I'm a FULL STACK DEVELOPER...") // Type out the text
@@ -30,7 +30,7 @@ const Section1 = () => {
                 <div className="col-lg-6 h-100 py-0 py-sm-5 ">
                     <div className="container ">
                         <div id="app" ></div>
-                        <div className="row">
+                        {/* <div className="row">
                             <figcaption class="blockquote-footer d-flex text-white align-items-center">
                                 <h1 title="Source Title" className='inline-block ms-3'>
                                     <em style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214" }}>Let's Get In <span style={{ color: "#94E214", borderBottom: "2px solid white" }}>Touch...</span></em>
@@ -40,7 +40,7 @@ const Section1 = () => {
                                 <h4 style={{ fontFamily: "Playwrite AU SA, serif" }} className="text-white lh-base">I'm a Full Stack Developer with a passion for developing and designing beautiful and functional websites. I'm always looking for new opportunities to learn and grow.</h4>
 
                             </div>
-                            {/* <div className="col">
+                            <div className="col">
                                 <i class="fa-brands similarFont fs-1 fa-github"></i>
                             </div>
                             <div className="col">
@@ -51,12 +51,12 @@ const Section1 = () => {
                             </div>
                             <div className="col">
                                 <i class="fa-brands similarFont fs-1 fa-whatsapp"></i>
-                            </div> */}
-                        </div>
+                            </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="col-lg-6 py-5 ">
-                    <div className="container roundedImg border img-fluid  mt-0 mt-lg-5"></div>
+                    <div className="container roundedImg border img-fluid  mt-0 "></div>
                 </div>
             </div>
         </div >

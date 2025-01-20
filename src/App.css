@@ -1,12 +1,12 @@
  #app {
      height: 25vh;
-     font-weight: 500;
+     font-weight: 900;
      /* font-family: monospace; */
      font-family: "Playwrite AU SA", serif;
      text-align: left;
      color: #94E214;
      /* color: #33f933; */
-     font-size: 50px;
+     font-size: 70px;
      text-shadow: 1px 1px 9px rgb(51, 249, 51);
  }
 
@@ -133,7 +133,7 @@
  @media (max-width: 576px) {
      #app {
          height: 25vh !important;
-         font-size: 30px !important;
+         font-size: 40px !important;
      }
 
      .roundedImg {
