@@ -36,12 +36,9 @@
      }
  }
 
-
-
-
  /* .roundedImg::before {
      content: '';
-     
+
      width: 0%;
      height: 0%;
      opacity: 0;
@@ -101,8 +98,6 @@
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
  }
-
-
 
  .fa-whatsapp {
      background: linear-gradient(45deg, #25D366, #25D366, #25D366, #25D366, #25D366, #25D366);

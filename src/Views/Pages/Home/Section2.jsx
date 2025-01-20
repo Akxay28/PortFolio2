@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const Section2 = () => {
     return (
         <>
@@ -9,9 +8,7 @@ const Section2 = () => {
                     <div className='myServices'>
                         <p className="display-5  py-3 border-bottom  text-center text-light">MY SERVICES</p>
                     </div>
-                    <p className="text-light fs-4 mt-5"
-                        style={{ fontFamily: "Playwrite AU SA, serif" }}
-                    >
+                    <p className="text-light fs-4 mt-5" style={{ fontFamily: "Playwrite AU SA, serif" }}>
                         As a full-stack developer, I specialize in building scalable and responsive web applications. Whether you need a dynamic front-end interface or a robust back-end API, I offer comprehensive solutions tailored to your needs. My skill set includes:
                     </p>
                 </div>
