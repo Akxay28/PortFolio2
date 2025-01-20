@@ -5,7 +5,7 @@ const Section3 = () => {
         <>
             <div className="container mt-5">
                 <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 mb-0 mb-lg-5'>Skills</h2>
-                <div className="container mt-0 mt-lg-5">
+                <div className="container mt-0 mt-lg-5 mb-0 mb-lg-5">
                     <div className="row text-center">
                         <div className="col-lg-2">
                             <img className='img-fluid' src={"html.gif"} width={150} alt="" />
@@ -39,7 +39,7 @@ const Section3 = () => {
                             <img className='img-fluid' src={"firebase.gif"} width={150} alt="" />
                         </div>
                         <div className="col-lg-2">
-                            <img className='img-fluid' src={"redux.svg"} width={130} alt="" />
+                            <img className='img-fluid' src={"redux.svg"} width={150} alt="" />
                         </div>
                         <div className="col-lg-2 text-center text-lg-end">
                             <img className='img-fluid' src={"download.png"} width={150} alt="" />
