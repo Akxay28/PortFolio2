@@ -255,6 +255,9 @@
  }
 
 
+ /* Contact */
+
+
  /* MediaQuery */
  @media (max-width: 576px) {
      #app {
@@ -284,7 +287,4 @@
          height: 70vh !important;
          overflow: auto !important;
      }
-
-
-
  }
