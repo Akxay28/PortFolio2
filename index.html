@@ -37,14 +37,16 @@
     rel="stylesheet">
   <style>
     body {
-      /* background-color: #141414 !important; */
+      background-color: #141414 !important;
       z-index: -3 !important;
-      background: #262626;
+      /* background: #262626; */
       background-image: linear-gradient(to right, #333 1px, transparent 1px),
         linear-gradient(to bottom, #333 1px, transparent 1px);
       background-size: 4vh 4vh;
       color: white;
     }
+
+    /* cursor */
   </style>
 
   <!-- <style>
@@ -63,9 +65,17 @@
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
-  <script>
+  <div id="magic-cursor">
+    <div id="dot"></div>
+    <div id="ball"></div>
+  </div>
 
-  </script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
 </body>
 
 </html>

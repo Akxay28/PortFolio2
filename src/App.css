@@ -129,7 +129,133 @@
      height: 6vh !important;
  }
 
+ /* Carousel */
+ .customButtons {
+     position: absolute;
+     top: 5%;
+     width: 50%;
+     right: 0%;
+     display: flex;
+     justify-content: center;
+     background-color: #94E214;
 
+     .carousel-control-prev {
+         position: absolute;
+         left: 60% !important;
+
+     }
+
+ }
+
+ /* Carousel animation */
+
+ .flower {
+     position: relative;
+ }
+
+ .circle {
+     border: 3px solid #94E214;
+     border-radius: 50%;
+     transform-origin: top;
+     position: absolute;
+     top: 30px;
+     transform: rotateX(-70deg);
+     animation: moveme 2.5s infinite cubic-bezier(0.25, 0.1, 0.25, 1);
+ }
+
+ .circle:nth-child(1) {
+     width: 400px;
+     height: 400px;
+     left: calc(50% - 200px);
+     animation-delay: 0.1s;
+ }
+
+ .circle:nth-child(2) {
+     width: 365px;
+     height: 365px;
+     left: calc(50% - 182.5px);
+     animation-delay: 0.2s;
+ }
+
+ .circle:nth-child(3) {
+     width: 330px;
+     height: 330px;
+     left: calc(50% - 165px);
+     animation-delay: 0.3s;
+ }
+
+ .circle:nth-child(4) {
+     width: 295px;
+     height: 295px;
+     left: calc(50% - 147.5px);
+     animation-delay: 0.4s;
+ }
+
+ .circle:nth-child(5) {
+     width: 260px;
+     height: 260px;
+     left: calc(50% - 130px);
+     animation-delay: 0.5s;
+ }
+
+ .circle:nth-child(6) {
+     width: 225px;
+     height: 225px;
+     left: calc(50% - 112.5px);
+     animation-delay: 0.6s;
+ }
+
+ .circle:nth-child(7) {
+     width: 190px;
+     height: 190px;
+     left: calc(50% - 95px);
+     animation-delay: 0.7s;
+ }
+
+ .circle:nth-child(8) {
+     width: 155px;
+     height: 155px;
+     left: calc(50% - 77.5px);
+     animation-delay: 0.8s;
+ }
+
+ .circle:nth-child(9) {
+     width: 120px;
+     height: 120px;
+     left: calc(50% - 60px);
+     animation-delay: 0.9s;
+ }
+
+ .circle:nth-child(10) {
+     width: 85px;
+     height: 85px;
+     left: calc(50% - 42.5px);
+     animation-delay: 1s;
+ }
+
+ .circle:nth-child(11) {
+     width: 50px;
+     height: 50px;
+     left: calc(50% - 25px);
+     animation-delay: 1.1s;
+ }
+
+ @keyframes moveme {
+     0% {
+         top: 30px;
+     }
+
+     50% {
+         top: 160px;
+     }
+
+     100% {
+         top: 30px;
+     }
+ }
+
+
+ /* MediaQuery */
  @media (max-width: 576px) {
      #app {
          height: 25vh !important;
@@ -152,4 +278,13 @@
      .similarFont {
          font-size: 17px !important;
      }
+
+     .carousel-item {
+         width: 100% !important;
+         height: 70vh !important;
+         overflow: auto !important;
+     }
+
+
+
  }

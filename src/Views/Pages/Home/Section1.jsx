@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { use } from 'react';
 
 const Section1 = () => {
     useEffect(() => {
@@ -7,6 +8,8 @@ const Section1 = () => {
             loop: true,
             delay: 75
         });
+
+
 
         typewriter
             .typeString("H E L L O <br> :) ") // Type out the text
