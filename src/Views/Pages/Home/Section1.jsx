@@ -59,7 +59,7 @@ const Section1 = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 py-5 ">
-                    <div className="container roundedImg border img-fluid  mt-0 "></div>
+                    <div className="container roundedImg   img-fluid  mt-5 "></div>
                 </div>
             </div>
         </div >

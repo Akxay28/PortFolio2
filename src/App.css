@@ -11,10 +11,52 @@
  }
 
  .roundedImg {
-     width: 400px;
-     height: 400px;
+     width: 500px;
+     height: 500px;
+     z-index: -99999;
+     background-image: url('../pray.png');
+     background-size: cover;
+     background-position: center;
+     transition: all 0.5s;
+     position: relative;
+     border-radius: 50%;
      overflow: hidden;
-     background-image: url('../public/secondimg.JPG');
+     /* animation: upDownInfinite 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate; */
+     -webkit-animation: roundedImg 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate;
+     animation: roundedImg 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate;
+
+ }
+
+ @-webkit-keyframes roundedImg {
+     0% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+
+     100% {
+         -webkit-transform: translateY(-100px);
+         transform: translateY(-100px);
+     }
+ }
+
+ @keyframes roundedImg {
+     0% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+
+     100% {
+         -webkit-transform: translateY(-100px);
+         transform: translateY(-100px);
+     }
+ }
+
+
+ /* .roundedImg {
+     width: 500px;
+     height: 500px;
+     overflow: hidden;
+     background-image: url('../pray.png');
      background-color: rgba(0, 0, 0, 0.308) !important;
      background-blend-mode: multiply !important;
      background-size: cover !important;
@@ -23,9 +65,10 @@
      transition: all 0.5s;
      position: relative;
      filter: saturate(0);
-     /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
      border-radius: 63% 37% 63% 37% / 16% 16% 84% 84%;
      box-shadow: rgba(122, 250, 105, 0.1) 0px 8px 24px, rgba(149, 255, 145, 0.1) 0px 16px 56px, rgba(142, 255, 142, 0.1) 0px 24px 80px;
+     background-color: rgba(255, 255, 255, 0.805);
 
      img {
          display: none;
@@ -34,7 +77,7 @@
      &:hover {
          filter: saturate(1);
      }
- }
+ } */
 
  /* .roundedImg::before {
      content: '';
@@ -256,6 +299,34 @@
 
 
  /* Contact */
+ .animation {
+     -webkit-animation: animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate;
+     animation: animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate;
+ }
+
+ @-webkit-keyframes animation {
+     0% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+
+     100% {
+         -webkit-transform: translateY(-100px);
+         transform: translateY(-100px);
+     }
+ }
+
+ @keyframes animation {
+     0% {
+         -webkit-transform: translateY(0);
+         transform: translateY(0);
+     }
+
+     100% {
+         -webkit-transform: translateY(-100px);
+         transform: translateY(-100px);
+     }
+ }
 
 
  /* MediaQuery */
