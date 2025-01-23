@@ -1,4 +1,5 @@
 .stack-container {
+    width: 40vh !important;
     position: relative;
     perspective: 600px;
 }
@@ -25,5 +26,8 @@
     .card {
         width: 50% !important;
         height: 50% !important;
+        translate: 50% 50% !important;
+
+
     }
 }

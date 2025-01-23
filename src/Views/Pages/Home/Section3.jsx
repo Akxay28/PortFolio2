@@ -19,7 +19,7 @@ const Section3 = () => {
 
                 <div className="container">
                     <div className="row text-center d-grid text-center mx-auto">
-                        <div className="col-lg-6"></div>
+
                         <div className="col-lg-6 d-grid mx-auto text-center">
                             <Stack
                                 randomRotation={true}
