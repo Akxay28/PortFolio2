@@ -6,10 +6,19 @@ import Stack from '../ReactBits/Stack';
 const Section3 = () => {
 
     const images = [
-        { id: 1, img: "html.gif" },
-        { id: 2, img: "CSS3.gif" },
+        { id: 13, img: "GIT.gif" },
+        { id: 12, img: "figma-logo-animation-unscreen.gif" },
+        { id: 11, img: "download.png" },
+        { id: 10, img: "express.gif" },
+        { id: 9, img: "mongos.gif" },
+        { id: 8, img: "NODE.gif" },
+        { id: 7, img: "firebase.gif" },
+        { id: 6, img: "redux.svg" },
+        { id: 5, img: "REACT.gif" },
+        { id: 4, img: "JS.gif" },
         { id: 3, img: "bootstrap.webp" },
-        { id: 4, img: "JS.gif" }
+        { id: 2, img: "CSS3.gif" },
+        { id: 1, img: "html.gif" },
     ];
 
     return (
