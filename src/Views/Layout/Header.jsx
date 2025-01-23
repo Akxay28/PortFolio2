@@ -20,16 +20,16 @@ const Header = () => {
                     </div>
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
-                            <li class="nav-item   ms-0 ms-lg-5 me-0 me-lg-5">
-                                <a class="nav-link text-light text-uppercase border-bottom fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5" aria-current="page" href="#">Main Page</a>
+                            <li class="nav-item   ms-0 ms-lg-5 ">
+                                <a class="nav-link text-light text-uppercase border-bottom fs-bolder fs-6  ms-0 ms-lg-5 " aria-current="page" href="#">Main Page</a>
                             </li>
-                            <li class="nav-item    ms-0 ms-lg-5 me-0 me-lg-5">
-                                <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5" aria-current="page" href="#">PortFolio</a>
+                            <li class="nav-item    ms-0 ms-lg-5 ">
+                                <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6  ms-0 ms-lg-5 " aria-current="page" href="#">PortFolio</a>
                             </li>
-                            <li class="nav-item ms-0 ms-lg-5 me-0 me-lg-5 border-bottom border-dark">
-                                <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6 ms-0 ms-lg-5 me-0 me-lg-5  " aria-current="page" href="#">Contacts</a>
+                            <li class="nav-item ms-0 ms-lg-5  border-bottom border-dark">
+                                <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6 ms-0 ms-lg-5   " aria-current="page" href="#">Contacts</a>
                             </li>
-                            <li class="nav-item  ms-0 ms-lg-5 me-0 me-lg-5 ">
+                            <li class="nav-item  ms-0 ms-lg-5  ">
                                 <a class="nav-link text-light text-uppercase  border-bottom fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5   " aria-current="page" href="#" >
                                     About Me
                                 </a>

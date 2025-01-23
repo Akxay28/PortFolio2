@@ -1,11 +1,37 @@
-import React from 'react'
+import React from 'react';
+import Stack from '../ReactBits/Stack';
+
+
 
 const Section3 = () => {
+
+    const images = [
+        { id: 1, img: "html.gif" },
+        { id: 2, img: "CSS3.gif" },
+        { id: 3, img: "bootstrap.webp" },
+        { id: 4, img: "JS.gif" }
+    ];
+
     return (
         <>
             <div className="container mt-5">
                 <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 mb-0 mb-lg-5'>Skills</h2>
-                <div className="container mt-0 mt-lg-5 mb-0 mb-lg-5">
+
+                <div className="container">
+                    <div className="row text-center d-grid text-center mx-auto">
+                        <div className="col-lg-6"></div>
+                        <div className="col-lg-6 d-grid mx-auto text-center">
+                            <Stack
+                                randomRotation={true}
+                                sensitivity={180}
+                                sendToBackOnClick={false}
+                                cardDimensions={{ width: 500, height: 300 }}
+                                cardsData={images}
+                            />
+                        </div>
+                    </div>
+                </div>
+                {/* <div className="container mt-0 mt-lg-5 mb-0 mb-lg-5">
                     <div className="row text-center">
                         <div className="col-lg-2 col-md-3 col-sm-6 d-none d-lg-block">
                             <img className='img-fluid' src={"html.gif"} width={150} alt="" />
@@ -48,8 +74,8 @@ const Section3 = () => {
                             <img className='img-fluid' src={"figma-logo-animation-unscreen.gif"} width={150} alt="" />
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> */}
+            </div >
         </>
     )
 }
