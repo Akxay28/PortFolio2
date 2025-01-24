@@ -1,6 +1,7 @@
  #app {
      height: 20vh;
      font-weight: 900;
+     position: relative;
      /* font-family: monospace; */
      font-family: "Playwrite AU SA", serif;
      text-align: left;
@@ -8,8 +9,102 @@
      /* color: #33f933; */
      font-size: 70px;
      text-shadow: 1px 1px 9px rgb(51, 249, 51);
-
  }
+
+ /* tags  */
+ .html::after,
+ .body::after,
+ .h1::after,
+ .h2::after,
+ .p::after,
+ .i::after,
+ .form::after,
+ .dashform::after,
+ .button::after,
+ .dashbutton::after,
+ .dashi::after,
+ .dashh2::after,
+ .dashh1::after,
+ .dashp::after,
+ .cardtag::after,
+ .dashcardtag::after,
+ .dashhtml::after,
+ .dashbody::after {
+     font-size: xx-large;
+     font-family: "Schoolbell", serif;
+     color: rgba(255, 255, 255, 0.245);
+ }
+
+ .html::after {
+     content: "<html>";
+ }
+
+ .h1::after {
+     content: "<h1>";
+ }
+
+ .h2::after {
+     content: "<h2>";
+ }
+
+ .p::after {
+     content: "<p>";
+ }
+
+ .i::after {
+     content: "<i>";
+ }
+
+ .form::after {
+     content: "<form>";
+ }
+
+ .dashform::after {
+     content: "</form>";
+ }
+
+ .button::after {
+     content: "<button>";
+ }
+
+ .dashbutton::after {
+     content: "</button>";
+ }
+
+ .dashi::after {
+     content: "</i>";
+ }
+
+ .cardtag::after {
+     content: " <card>";
+ }
+
+ .dashcardtag::after {
+     content: " </card>";
+ }
+
+ .dashp::after {
+     content: "</p>";
+ }
+
+ .dashh1::after {
+     content: "</h1>";
+     position: absolute;
+     bottom: 7%;
+ }
+
+ .dashh2::after {
+     content: "</h2>";
+ }
+
+ .dashhtml::after {
+     content: "</html>";
+ }
+
+ .dashbody::after {
+     content: "</body>";
+ }
+
 
  .hireMe {
      border: 2px solid #94E214;

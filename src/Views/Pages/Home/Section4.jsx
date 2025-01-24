@@ -4,9 +4,14 @@ const Section4 = () => {
     return (
         <>
             <div className="container mt-5" data-aos="fade-up">
+                <span className='h2'></span>
                 <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 '>My Experience</h2>
+                <span className='dashh2'></span>
+
                 <div className="row  mt-5">
+
                     <div className="col-lg-6 border mt-5">
+                        <span className='cardtag'></span>
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div className='customButtons'>
                                 <button class="carousel-control-prev  " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -86,8 +91,11 @@ const Section4 = () => {
                                 </div>
                             </div>
 
+                            <span className='dashcardtag'></span>
                         </div>
                     </div>
+
+
                     <div className="col-lg-6 text-center py-5 d-none d-lg-block">
                         <div className="container flower mt-5 ">
                             <div class="circle"></div>

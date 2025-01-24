@@ -6,16 +6,24 @@ const Section2 = () => {
             <div className="container ">
                 <div className="row ">
                     <div className=''>
+                        <span className='h2'></span>
                         <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 mb-0 mb-lg-5'>MY SERVICES</h2>
+                        <span className='dashh2'></span>
                     </div>
+
                     {/* <div className='myServices'>
                         <p className="display-5  py-3 border-bottom  text-center text-light">MY SERVICES</p>
                     </div> */}
+
                     <p className="text-light fs-4 mt-5" style={{ fontFamily: "Playwrite AU SA, serif" }} data-aos="fade-up">
+                        <span className='p'></span>
                         As a full-stack developer, I specialize in building scalable and responsive web applications. Whether you need a dynamic front-end interface or a robust back-end API, I offer comprehensive solutions tailored to your needs. My skill set includes:
+                        <span className='dashp'></span>
                     </p>
+
                 </div>
                 <div className="row" data-aos="fade-up">
+                    <span className='cardtag'></span>
                     <div className="col-lg-8 border rounded py-5 d-flex align-items-center justify-content-center ">
                         <div className="container ">
                             {/* <i class="fa-solid fa-palette fs-2 text-primary"></i> */}
@@ -28,12 +36,16 @@ const Section2 = () => {
                             </ul>
                         </div>
                     </div>
+
+
                 </div>
                 <div class="vr  d-grid mx-auto  text-light"></div>
                 <i class="text-center text-light fa-regular fa-circle d-grid  mx-auto"
                 // style={{ color: "#94E214" }} 
                 ></i>
                 <div className="row" data-aos="fade-up">
+
+
                     <div className="col-lg-4"></div>
                     <div className="col-lg-8 border rounded py-5 d-flex align-items-center justify-content-center">
                         <div className="container ">
@@ -53,6 +65,8 @@ const Section2 = () => {
 
 
                 <div className="row" data-aos="fade-up">
+
+
                     <div className="col-lg-8 border rounded py-5 d-flex align-items-center justify-content-center">
                         <div className="container ">
                             <img src="database.gif" width={100} alt="" />
@@ -64,6 +78,7 @@ const Section2 = () => {
                             </ul>
                         </div>
                     </div>
+
                 </div>
                 <div class="vr  d-grid mx-auto  text-light"></div>
                 <i class="text-center  text-light   fa-regular fa-circle d-grid  mx-auto"
@@ -71,6 +86,7 @@ const Section2 = () => {
                 ></i>
 
                 <div className="row" data-aos="fade-up">
+
                     <div className="col-lg-4"></div>
                     <div className="col-lg-8 border rounded py-5 d-flex align-items-center justify-content-center">
                         <div className="container ">
@@ -82,6 +98,7 @@ const Section2 = () => {
                             </ul>
                         </div>
                     </div>
+                    <span className='dashcardtag'></span>
                 </div>
             </div>
 

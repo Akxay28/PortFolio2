@@ -24,7 +24,10 @@ const Section3 = () => {
     return (
         <>
             <div className="container mt-5" data-aos="fade-up">
+                <span className='h2'></span>
+
                 <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 mb-0 mb-lg-5'>Skills</h2>
+                <span className='dashh2'></span>
 
                 <div className="container">
                     <div className="row text-center d-grid text-center mx-auto">

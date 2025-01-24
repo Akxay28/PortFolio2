@@ -15,6 +15,7 @@ const Header = () => {
                     </div>
                     <div class="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+
                             <li class="nav-item   ms-0 ms-lg-5 ">
                                 <a style={{ borderBottom: "2px solid #94E214", }} class="nav-link text-light text-uppercase  fs-bolder fs-6  ms-0 ms-lg-5 " aria-current="page" href="#" >Home</a>
                             </li>
