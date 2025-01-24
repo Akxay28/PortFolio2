@@ -10,6 +10,16 @@
      text-shadow: 1px 1px 9px rgb(51, 249, 51);
  }
 
+ .hireMe {
+     border: 2px solid #94E214;
+     color: #94E214;
+ }
+
+ .hireMe:hover {
+     background-color: #94E214;
+     color: black;
+ }
+
  .roundedImg {
      width: 500px;
      height: 500px;
@@ -115,7 +125,7 @@
      transition: all 0.5s;
      border-radius: 30%;
      padding: 10px;
-     box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+     box-shadow: rgb(255, 255, 255) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
      margin: 10px;
      cursor: pointer;
 
@@ -284,6 +294,7 @@
 
  /* Contact */
  .animation {
+
      -webkit-animation: animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate;
      animation: animation 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate;
  }

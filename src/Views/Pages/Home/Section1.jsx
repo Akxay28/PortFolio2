@@ -28,7 +28,7 @@ const Section1 = () => {
     }, []);
 
     return (
-        <div className="container w-100">
+        <div className="container w-100" >
             <div className="row">
                 <div className="col-lg-6 h-100 py-0 py-sm-5 ">
                     <div className="container ">

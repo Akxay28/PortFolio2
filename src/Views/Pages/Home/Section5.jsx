@@ -3,29 +3,15 @@ import React from 'react'
 const Section5 = () => {
     return (
         <>
-            <div className="container mt-5">
+            <div className="container mt-5" data-aos="fade-up">
                 <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 '>Contact</h2>
                 <div className="row mt-5">
                     <div className="col-lg-6 ">
-                        {/* <img src={"userWithLaptop.webp"} className='img-fluid animation' alt="" /> */}
                         <div className="container">
                             <div className="container">
                                 <img src={"userWithLaptop.png"} className='img-fluid animation' alt="" />
                             </div>
                         </div>
-
-                        {/* <div class="col-md-4 ">
-                                        <div className="container  rounded  ">
-                                            <img src={"akimg.JPG"} class="img-fluid rounded-start" alt="..." />
-                                        </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                        <div class="card-body text-center">
-                                            <p class="card-title text-dark fs-3  text-center" style={{ borderBottom: "2px solid #94E214", display: 'inline-block' }}>Λk⚡️H ΛY</p>
-                                            <p class="card-text mt-3 fs-4 text-dark"><i class="fa-solid fs-4 me-3 fa-mobile-screen-button"></i>+91 6351357299 </p>
-                                            <p class="card-text d-inline-block fs-5   text-truncate text-dark" ><i class="fa-solid fa-at"></i>Palaskshay3091@gmail.com</p>
-                                        </div>
-                                    </div> */}
                     </div>
                     <div className="col-lg-6  ">
                         <div className="container">
@@ -53,7 +39,7 @@ const Section5 = () => {
                                         <label for="floatingTextarea2">Comments</label>
                                     </div>
 
-                                    <button type="button" class="btn mt-3" style={{ backgroundColor: "#94E214", color: "black" }}>Submit</button>
+                                    <button type="button" class="btn mt-3 hireMe"  >Submit</button>
                                 </div>
                             </div>
                         </div>
