@@ -3,8 +3,8 @@ import React from 'react'
 const Section5 = () => {
     return (
         <>
-            <div className="container mt-5" data-aos="fade-up">
-                <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 '>Contact</h2>
+            <div className="container mt-5" data-aos="fade-up" >
+                <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 ' >Contact</h2>
                 <div className="row mt-5">
                     <div className="col-lg-6 ">
                         <div className="container">
