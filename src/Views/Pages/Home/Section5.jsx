@@ -46,8 +46,6 @@ const Section5 = () => {
                                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: '100px' }}></textarea>
                                         <label for="floatingTextarea2">Comments</label>
                                     </div>
-                                    <span className='dashform'></span>
-
                                     <div>
 
                                         <span className='button'></span>
@@ -56,6 +54,9 @@ const Section5 = () => {
                                         </button>
                                         <span className='dashbutton'></span>
                                     </div>
+                                    <span className='dashform'></span>
+
+
                                 </div>
                             </div>
                         </div>

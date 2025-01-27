@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="row py-5">
 
                     <span className='display-4 text-center mb-5 py-5'>
-                        <span className='p'></span>I am not hard to find let's create something truly <span style={{ fontFamily: "Playwrite IN, serif", borderBottom: "2px solid white", color: "#94E214" }}>spectacular !</span>   <span className='dashp'></span></span>
+                        <span className='p'></span>I am not hard to find let's create something truly <span style={{ fontFamily: "monoplay", borderBottom: "2px solid white", color: "#94E214" }}>spectacular !</span>   <span className='dashp'></span></span>
 
                     <div className="col">
                         <span className='i'></span>
@@ -33,8 +33,6 @@ const Footer = () => {
                 </div>
                 <span className='dashbody'></span><br /><br />
                 <span className='dashhtml'></span>
-
-
             </div>
         </>
     )

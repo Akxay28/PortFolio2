@@ -29,9 +29,8 @@ const Section1 = () => {
 
     return (
         <div className="container w-100" id='home' >
-            <span className='html'></span>
+            <span className='body'></span>
             <div className="row">
-                <span className='body'></span>
                 <div className="col-lg-6 h-100 py-0 py-sm-5 ">
                     <div className="container ">
                         <span className='h1'></span>

@@ -29,7 +29,8 @@
  .cardtag::after,
  .dashcardtag::after,
  .dashhtml::after,
- .dashbody::after {
+ .dashbody::after,
+ .nav::after {
      font-size: xx-large;
      font-family: "Schoolbell", serif;
      color: rgba(255, 255, 255, 0.245);
@@ -37,6 +38,12 @@
 
  .html::after {
      content: "<html>";
+ }
+
+
+
+ .body::after {
+     content: "<body>";
  }
 
  .h1::after {
@@ -486,5 +493,29 @@
          width: 100% !important;
          height: 70vh !important;
          overflow: auto !important;
+     }
+
+     .html::after,
+     .body::after,
+     .h1::after,
+     .h2::after,
+     .p::after,
+     .i::after,
+     .form::after,
+     .dashform::after,
+     .button::after,
+     .dashbutton::after,
+     .dashi::after,
+     .dashh2::after,
+     .dashh1::after,
+     .dashp::after,
+     .cardtag::after,
+     .dashcardtag::after,
+     .dashhtml::after,
+     .dashbody::after,
+     .nav::after {
+         font-size: large;
+         font-family: "Schoolbell", serif;
+         color: rgba(255, 255, 255, 0.245);
      }
  }
