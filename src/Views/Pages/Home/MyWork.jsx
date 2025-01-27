@@ -11,7 +11,7 @@ const MyWork = () => {
                     <div className="col-lg-4">
                         <img src={"Untitled-1.png"} className='img-fluid' alt="" />
                     </div>
-                    <div className="col-lG-4">
+                    <div className="col-lg-4">
                         <img src={"Untitled-1.png"} className='img-fluid' alt="" />
                     </div>
 
