@@ -3,12 +3,12 @@ import React from 'react'
 const Section4 = () => {
     return (
         <>
-            <div className="container mt-5" data-aos="fade-up">
+            <div className="container" data-aos="fade-up">
                 <span className='h2'></span>
                 <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 '>My Experience</h2>
                 <span className='dashh2'></span>
 
-                <div className="row  mt-5">
+                <div className="row   ">
 
                     <div className="col-lg-6 border mt-5">
                         <span className='cardtag'></span>

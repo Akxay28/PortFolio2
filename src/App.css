@@ -223,6 +223,11 @@
      transform: scale(1.2);
  } */
 
+ /* Work project */
+
+
+
+
  .similarFont {
      font-size: 30px;
      transition: all 0.5s;
@@ -517,5 +522,14 @@
          font-size: large;
          font-family: "Schoolbell", serif;
          color: rgba(255, 255, 255, 0.245);
+     }
+
+     .workImage {
+
+         height: 70%;
+
+
+         overflow: auto;
+         object-fit: cover;
      }
  }
