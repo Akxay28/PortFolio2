@@ -34,7 +34,9 @@ const Header = () => {
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <button class="btn hireMe " type="submit">Hire me</button>
+                            <a href="./Profile.pdf" download="./Profile.pdf">
+                                <button class="btn hireMe" type="button">Hire me</button>
+                            </a>
                         </form>
                     </div>
                 </div>
