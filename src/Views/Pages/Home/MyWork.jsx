@@ -10,7 +10,7 @@ const MyWork = () => {
                 <div className="row mt-5 mt-sm-5">
                     <div className="col-lg-3 mt-0">
                         <div className="container workImage">
-                            <img src={"yagnesh-01.png"} className='img-fluid' alt="" />
+                            <img src={"yagnesh-01-Copy.png"} className='img-fluid' alt="" />
                         </div>
                     </div>
                     <div className="col-lg-3 mt-0">
@@ -20,12 +20,12 @@ const MyWork = () => {
                     </div>
                     <div className="col-lg-3 mt-0">
                         <div className="container workImage">
-                            <img src={"PIZZA.png"} className='img-fluid' alt="" />
+                            <img src={"PIZZA-Copy.png"} className='img-fluid' alt="" />
                         </div>
                     </div>
                     <div className="col-lg-3 mt-0">
                         <div className="container workImage">
-                            <img src={"cake.png"} className='img-fluid' alt="" />
+                            <img src={"cake-Copy.png"} className='img-fluid' alt="" />
                         </div>
                     </div>
                 </div>
