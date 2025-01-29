@@ -15,7 +15,7 @@ const MyWork = () => {
                     </div>
                     <div className="col-lg-3 mt-0">
                         <div className="container workImage">
-                            <img src={"asion.png"} className='img-fluid' alt="" />
+                            <img src={"asion-Copy.png"} className='img-fluid' alt="" />
                         </div>
                     </div>
                     <div className="col-lg-3 mt-0">
