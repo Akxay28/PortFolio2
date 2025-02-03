@@ -4,12 +4,14 @@ const Header = () => {
 
     return (
         <>
-            <span className='html'></span><br />
+            <span className='html' data-aos="fade-up-right"></span><br />
 
             <nav class="navbar navbar-expand-lg  navbar-transparent mb-5   ">
                 <div class="container  pt-0 pt-lg-3  py-5   ">
                     {/* <a class="navbar-brand  text-white" href="#">Λk⚡️H ΛY</a> */}
-                    <a class="navbar-brand  text-white" href="#" style={{ borderBottom: "2px solid #94E214" }}>Λk<img src="bolt2.gif" width={30} alt="Λk⚡️H ΛY" />H ΛY</a>
+                    <span className='header  d-none d-md-none d-lg-block' data-aos="fade-up-right"></span>
+
+                    <a data-aos="fade-down" class="navbar-brand  text-white" href="#" style={{ borderBottom: "2px solid #94E214" }}> <span style={{ color: "#94E214" }}>Λ</span>k<img src="bolt2.gif" width={30} alt="Λk⚡️H ΛY" />H<span style={{ color: "#94E214" }}>Λ</span>Y</a>
                     <div class="navbar-toggler rounded rounded-pill border border-white overflow-hidden" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                         {/* <span class={isActive ? "fa-solid fa-arrow-down fa-bounce text-light" : " fa-solid fa-arrow-up fa-bounce text-light"} onClick={handleToggle}  ></span> */}
                         <span class={" fa-solid fa-bars "} style={{ cursor: 'none' }} ></span>
@@ -19,25 +21,27 @@ const Header = () => {
                         <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
 
                             <li class="nav-item   ms-0 ms-lg-5 ">
-                                <a style={{ borderBottom: "2px solid #94E214", }} class="nav-link text-light text-uppercase  fs-bolder fs-6  ms-0 ms-lg-5 " aria-current="page" href="#" >Home</a>
+                                <a style={{ borderBottom: "2px solid #94E214", }} class="nav-link text-light text-uppercase  fs-bolder fs-6  ms-0 ms-lg-5 " data-aos="fade-down" aria-current="page" href="#" >Home</a>
                             </li>
                             <li class="nav-item    ms-0 ms-lg-5 ">
-                                <a style={{ borderBottom: "2px solid #94E214", }} class="nav-link text-light text-uppercase   fs-bolder fs-6  ms-0 ms-lg-5 " aria-current="page" href="#">PortFolio</a>
+                                <a style={{ borderBottom: "2px solid #94E214", }} data-aos="fade-down" class="nav-link text-light text-uppercase   fs-bolder fs-6  ms-0 ms-lg-5 " aria-current="page" href="#">PortFolio</a>
                             </li>
                             <li class="nav-item ms-0 ms-lg-5   border-dark">
-                                <a style={{ borderBottom: "2px solid #94E214", }} class="nav-link text-light text-uppercase   fs-bolder fs-6 ms-0 ms-lg-5   " aria-current="page" href="#">Contacts</a>
+                                <a style={{ borderBottom: "2px solid #94E214", }} data-aos="fade-down" class="nav-link text-light text-uppercase   fs-bolder fs-6 ms-0 ms-lg-5   " aria-current="page" href="#">Cont<span style={{ color: "#94E214" }}>Λ</span>cts</a>
                             </li>
                             <li class="nav-item  ms-0 ms-lg-5  ">
-                                <a style={{ borderBottom: "2px solid #94E214", }} class="nav-link text-light text-uppercase   fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5   " aria-current="page" href="#" >
-                                    About Me
+                                <a style={{ borderBottom: "2px solid #94E214", }} data-aos="fade-down" class="nav-link text-light text-uppercase   fs-bolder fs-6  ms-0 ms-lg-5 me-0 me-lg-5   " aria-current="page" href="#" >
+                                    <span style={{ color: "#94E214" }}>Λ</span>bout Me
                                 </a>
                             </li>
                         </ul>
                         <form class="d-flex">
                             <a href="./Profile.pdf" download="./Profile.pdf">
-                                <button class="btn hireMe" type="button">Hire me</button>
+                                <button class="btn hireMe" type="button" data-aos="fade-left">Hire me</button>
                             </a>
+                            <span className=' d-none d-md-none d-lg-block  dashheader' data-aos="fade-up-left"></span>
                         </form>
+
                     </div>
                 </div>
             </nav >

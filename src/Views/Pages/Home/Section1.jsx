@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { use } from 'react';
 
+
 const Section1 = () => {
     useEffect(() => {
         var app = document.getElementById("app");
@@ -29,12 +30,12 @@ const Section1 = () => {
 
     return (
         <div className="container w-100" id='home' >
-            <span className='body'></span>
+            <span className='body' data-aos="fade-up-left"></span>
             <div className="row">
                 <div className="col-lg-6 h-100 py-0 py-sm-5 ">
                     <div className="container ">
-                        <span className='h1'></span>
-                        <div id="app"  ></div>
+                        <span className='h1' data-aos="zoom-in-up"></span>
+                        <div id="app" data-aos="zoom-in-up" ></div>
                         {/* <div className="row">
                             <figcaption class="blockquote-footer d-flex text-white align-items-center">
                             <h1 title="Source Title" className='inline-block ms-3'>
@@ -58,11 +59,11 @@ const Section1 = () => {
                             <i class="fa-brands similarFont fs-1 fa-whatsapp"></i>
                             </div>
                             </div> */}
-                        <span className='dashh1'></span>
+                        <span className='dashh1' data-aos="fade-up-left"></span>
                     </div>
                 </div>
                 <div className="col-lg-6 py-5 ">
-                    <div className="container roundedImg   img-fluid  mt-5 "></div>
+                    <div className="container roundedImg   img-fluid  mt-5 " data-aos="zoom-in-left"></div>
                 </div>
             </div>
         </div >

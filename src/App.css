@@ -30,7 +30,9 @@
  .dashcardtag::after,
  .dashhtml::after,
  .dashbody::after,
- .nav::after {
+ .nav::after,
+ .header::after,
+ .dashheader::after {
      font-size: xx-large;
      font-family: "Schoolbell", serif;
      color: rgba(255, 255, 255, 0.245);
@@ -39,8 +41,6 @@
  .html::after {
      content: "<html>";
  }
-
-
 
  .body::after {
      content: "<body>";
@@ -112,6 +112,14 @@
      content: "</body>";
  }
 
+ .header::after {
+     content: "<nav>";
+ }
+
+ .dashheader::after {
+     content: "</nav>";
+ }
+
 
  .hireMe {
      border: 2px solid #94E214;
@@ -122,6 +130,8 @@
      background-color: #94E214;
      color: black;
  }
+
+
 
  .roundedImg {
      width: 500px;
@@ -518,7 +528,9 @@
      .dashcardtag::after,
      .dashhtml::after,
      .dashbody::after,
-     .nav::after {
+     .nav::after,
+     .header::after,
+     .dashheader::after {
          font-size: large;
          font-family: "Schoolbell", serif;
          color: rgba(255, 255, 255, 0.245);

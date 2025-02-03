@@ -7,27 +7,31 @@ const Footer = () => {
 
                 <div className="row py-5">
 
-                    <span className='display-4 text-center mb-5 py-5'>
+                    <span className='display-4 text-center mb-5 py-5' >
                         <span className='p'></span>I am not hard to find let's create something truly <span style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid white", color: "#94E214" }}>spectacular !</span>   <span className='dashp'></span></span>
 
-                    <div className="col">
-                        <span className='i'></span>
+                    <div className="col" data-aos="fade-up"
+                        data-aos-anchor-placement="top-center">
+                        <span className='i' data-aos="fade-up"
+                            data-aos-anchor-placement="top-center"></span>
                         <a href='https://github.com/Akxay28' target='_blank' class="fa-brands similarFont fs-1 fa-github"></a>
                         <span className='dashi'></span>
                     </div>
-                    <div className="col">
+                    <div className="col" data-aos="fade-up"
+                        data-aos-anchor-placement="top-center">
                         <span className='i'></span>
                         <a href='https://www.linkedin.com/in/akshay-pal-a91528283' target='_blank' class="fa-brands similarFont fs-1 fa-linkedin"></a>
                         <span className='dashi'></span>
                     </div>
-                    <div className="col">
+                    <div className="col" data-aos="fade-up"
+                        data-aos-anchor-placement="top-center">
                         <span className='i'></span>
                         <a href='https://www.instagram.com/qr/' target='_blank' class="fa-brands similarFont fs-1 fa-instagram"></a>
                         <span className='dashi'></span>
                     </div>
 
                 </div>
-                <span className='dashbody'></span><br /><br />
+                <span className='dashbody' data-aos="fade-up-right"></span><br /><br />
                 <span className='dashhtml'></span>
             </div>
         </>
