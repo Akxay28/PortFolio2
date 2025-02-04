@@ -1,5 +1,6 @@
 import React from 'react';
 import Stack from '../ReactBits/Stack';
+import FlyingPosters from '../ReactBits/FlyingPosters/FlyingPoster';
 
 
 
@@ -21,6 +22,23 @@ const Section3 = () => {
         { id: 1, img: "html.gif" },
     ];
 
+    const items = [
+        'GIT.gif',
+        'figma-logo-animation-unscreen.gif',
+        'download.png',
+        'express.gif',
+        'mongos.gif',
+        'NODE.gif',
+        'firebase.gif',
+        'redux.svg',
+        'REACT.gif',
+        'JS.gif',
+        'bootstrap.webp',
+        'CSS3.gif',
+        'html.gif'
+    ];
+
+
     return (
         <>
             <div className="container mt-5" data-aos="fade-up">
@@ -35,14 +53,18 @@ const Section3 = () => {
                 <div className="container">
                     <div className="row text-center d-grid text-center mx-auto">
 
-                        <div className="col-lg-6 d-grid mx-auto text-center">
-                            <Stack
+                        <div className="col-lg-6 d-grid mx-auto text-center" >
+                            {/* <Stack
                                 randomRotation={true}
                                 sensitivity={180}
                                 sendToBackOnClick={false}
                                 cardDimensions={{ width: 500, height: 300 }}
                                 cardsData={images}
-                            />
+                            /> */}
+                            <div style={{ height: '600px', position: 'relative' }}>
+                                <p className='display-4'>Scroll Down</p>
+                                <FlyingPosters className='img-fluid' items={items} />
+                            </div>
                         </div>
                     </div>
                 </div>

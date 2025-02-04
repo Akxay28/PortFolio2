@@ -131,8 +131,7 @@
      color: black;
  }
 
-
-
+ /* Section one image */
  .roundedImg {
      width: 500px;
      height: 500px;
@@ -234,9 +233,6 @@
  } */
 
  /* Work project */
-
-
-
 
  .similarFont {
      font-size: 30px;
@@ -473,12 +469,15 @@
      z-index: 9999;
  }
 
- /* .hover {
-     background-color: #E94549;
-     opacity: 0.5;
-     z-index: 9999;
- } */
+ .gsapCursor {
+     cursor: none !important;
+     border: none !important;
+     outline: none !important;
+ }
 
+ .cardShadow {
+     box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(29, 29, 29, 0.12) 0px -12px 30px, rgba(251, 251, 251, 0.12) 0px 4px 6px, rgba(251, 251, 251, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px !important;
+ }
 
  /* MediaQuery */
  @media (max-width: 576px) {
