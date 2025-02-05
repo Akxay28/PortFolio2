@@ -5,10 +5,12 @@ import Section3 from './Section3'
 import Section4 from './Section4'
 import Section5 from './Section5'
 import MyWork from './MyWork'
+import Marquee from '../Components/Marquee'
 
 const Home = () => {
     return (
         <>
+
             <Section1 />
             <Section2 />
             <Section3 />

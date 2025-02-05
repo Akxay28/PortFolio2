@@ -4,6 +4,7 @@ import Home from './Views/Pages/Home/Home';
 import Layout from './Views/Pages/Layout';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
+import Marquee from './Views/Pages/Components/Marquee';
 
 function App() {
 
@@ -36,7 +37,7 @@ function App() {
     <>
 
       <Router>
-
+        <Marquee />
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
