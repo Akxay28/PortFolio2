@@ -6,7 +6,7 @@ const MyWork = () => {
         <>
             <div className="container mt-5">
                 <span className='h2'></span>
-                <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 mb-0 mb-lg-5 ' data-aos="fade-right">Latest Works</h2>
+                <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 mb-0 mb-lg-5 ' data-aos="fade-down">Latest Works</h2>
                 <span className='dashh2'></span>
                 <div className="row mt-5 mt-sm-5 gap-0" data-aos="fade-up">
                     <Card img={"nova img.jpg"} />

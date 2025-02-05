@@ -34,7 +34,7 @@ const Section1 = () => {
             <div className="row">
                 <div className="col-lg-6 h-100 py-0 py-sm-5 ">
                     <div className="container ">
-                        <span className='h1' data-aos="zoom-in-up"></span>
+                        {/* <span className='h1' data-aos="zoom-in-up"></span> */}
                         <div id="app" data-aos="zoom-in-up" ></div>
                         {/* <div className="row">
                             <figcaption class="blockquote-footer d-flex text-white align-items-center">
@@ -59,7 +59,7 @@ const Section1 = () => {
                             <i class="fa-brands similarFont fs-1 fa-whatsapp"></i>
                             </div>
                             </div> */}
-                        <span className='dashh1' data-aos="fade-up-left"></span>
+                        {/* <span className='dashh1' data-aos="fade-up-left"></span> */}
                     </div>
                 </div>
                 <div className="col-lg-6 py-5 ">

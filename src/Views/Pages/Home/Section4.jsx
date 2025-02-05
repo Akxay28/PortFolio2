@@ -5,7 +5,7 @@ const Section4 = () => {
         <>
             <div className="container" data-aos="fade-up">
                 <span className='h2'></span>
-                <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 ' data-aos="fade-right">
+                <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 ' data-aos="fade-down">
                     <span className='about'>My </span>
                     <span className='me'>Experience</span>
                 </h2>

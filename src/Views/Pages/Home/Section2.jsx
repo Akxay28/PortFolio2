@@ -8,8 +8,8 @@ const Section2 = () => {
                 <div className="row ">
                     <div className=''>
                         <span className='h2' data-aos="fade-right"></span>
-                        <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} data-aos="fade-right" className='mt-0 mt-lg-5 mb-0 mb-lg-5 '><span className='about'>About</span><span className='me'> Me</span></h2>
-                        <span className='dashh2'></span>
+                        <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} data-aos="fade-down" className='mt-0 mt-lg-5 mb-0 mb-lg-5 '><span className='about'>About</span><span className='me'> Me</span></h2>
+                        <span className='dashh2' data-aos="fade-right"></span>
                     </div>
 
                     {/* <div className='myServices'>
