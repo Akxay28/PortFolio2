@@ -54,17 +54,20 @@ const Section3 = () => {
                     <div className="row text-center d-grid text-center mx-auto">
 
                         <div className="col-lg-6 d-grid mx-auto text-center" >
-                            {/* <Stack
+                            <h1 className='text-center my-5' style={{ fontFamily: "Playwrite AU SA, serif" }}>Drag and move to see the different Skills</h1>
+                            <Stack className='mt-5'
                                 randomRotation={true}
                                 sensitivity={180}
                                 sendToBackOnClick={false}
                                 cardDimensions={{ width: 500, height: 300 }}
                                 cardsData={images}
-                            /> */}
-                            <div style={{ height: '600px', position: 'relative' }}>
+                            />
+                            {/* <div style={{ height: '600px', position: 'relative' }}>
                                 <p className='display-4'>Scroll Down</p>
                                 <FlyingPosters className='img-fluid' items={items} />
-                            </div>
+                            </div> */}
+
+
                         </div>
                     </div>
                 </div>
