@@ -37,7 +37,6 @@ function App() {
     <>
 
       <Router>
-        <Marquee />
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
