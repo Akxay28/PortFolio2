@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Section5 = () => {
+
     return (
         <>
             <div className="container mt-5"  >
@@ -33,33 +34,33 @@ const Section5 = () => {
                                 </figcaption>
                                 <div className="col-lg-12">
                                     <span className='form'></span>
-                                    <div class="form-floating mb-3 text-dark" data-aos="flip-left" >
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name" />
-                                        <label for="floatingInput"> Name</label>
-                                    </div>
-                                    <div class="form-floating mb-3 text-dark" data-aos="flip-left">
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter Contact Number" />
-                                        <label for="floatingInput"> Contact Number</label>
-                                    </div>
-                                    <div class="form-floating mb-3 text-dark" data-aos="flip-left">
-                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
-                                        <label for="floatingInput  ">Email address</label>
-                                    </div>
-                                    <div class="form-floating text-dark" data-aos="flip-left">
-                                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: '100px' }}></textarea>
-                                        <label for="floatingTextarea2">Comments</label>
-                                    </div>
-                                    <div>
+                                    <form  >
+                                        <div class="form-floating mb-3 text-dark" data-aos="flip-left" >
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name" required autofocus />
+                                            <label for="floatingInput"> Name</label>
+                                        </div>
+                                        <div class="form-floating mb-3 text-dark" data-aos="flip-left">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="Enter Contact Number" required autofocus />
+                                            <label for="floatingInput"> Contact Number</label>
+                                        </div>
+                                        <div class="form-floating mb-3 text-dark" data-aos="flip-left">
+                                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required autofocus />
+                                            <label for="floatingInput  ">Email address</label>
+                                        </div>
+                                        <div class="form-floating text-dark" data-aos="flip-left">
+                                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style={{ height: '100px' }} required  ></textarea>
+                                            <label for="floatingTextarea2">Comments</label>
+                                        </div>
+                                        <div>
 
-                                        <span className='button'></span>
-                                        <button type="button" class="btn  hireMe">
-                                            Submit
-                                        </button>
-                                        <span className='dashbutton'></span>
-                                    </div>
+                                            <span className='button'></span>
+                                            <button type="submit" class="btn  hireMe">
+                                                Submit
+                                            </button>
+                                            <span className='dashbutton'></span>
+                                        </div>
+                                    </form>
                                     <span className='dashform'></span>
-
-
                                 </div>
                             </div>
                         </div>
