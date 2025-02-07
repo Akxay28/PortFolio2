@@ -1,12 +1,14 @@
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'; // Import Routes
 import './App.css';
 import Home from './Views/Pages/Home/Home';
 import Layout from './Views/Pages/Layout';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import Marquee from './Views/Pages/Components/Marquee';
+import { motion, useScroll } from "motion/react"
 
 function App() {
+
+  const scrollYProgress = useScroll().scrollYProgress
 
   useGSAP(() => {
     gsap.from('.about', {
@@ -35,8 +37,13 @@ function App() {
 
   return (
     <>
-
       <Router>
+        <motion.div style={{
+          height: "7px",
+          scaleX: scrollYProgress,
+          originX: 0,
+          backgroundColor: "#94E214",
+        }} className="text-white  fixed-top"></motion.div>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
